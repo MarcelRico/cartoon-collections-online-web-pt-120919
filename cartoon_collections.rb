@@ -3,11 +3,10 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
-  results_arr = planeteer_calls.collect do |planet_call|
+  planeteer_calls.collect do |planet_call|
     planet_call.capitalize!
     planet_call+"!"
   end
-  pp results_arr
 end
 
 def long_planeteer_calls# code an argument here
