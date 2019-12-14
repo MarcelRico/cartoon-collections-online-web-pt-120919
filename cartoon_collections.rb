@@ -7,6 +7,7 @@ def summon_captain_planet(planeteer_calls)
     planet_call.Capitialize!
     planet_call+"!"
   end
+  pp results_arr
 end
 
 def long_planeteer_calls# code an argument here
