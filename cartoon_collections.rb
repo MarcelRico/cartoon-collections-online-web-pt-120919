@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   results_arr = planeteer_calls.collect do |planet_call|
-    planet_call.Capitialize!
+    planet_call.capitialize!
     planet_call+"!"
   end
   pp results_arr
